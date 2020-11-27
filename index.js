@@ -527,7 +527,7 @@ switch(bulan) {
 }
 var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + tahun;
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
-conn.sendMessage(id, readme.readme(id, BotName, corohelp, tampilTanggal, tampilWaktu, instagramlu, whatsapplu, kapanbotaktif, grupch1, grupch2) ,MessageType.text);
+conn.sendMessage(id, info.info(id, BotName, corohelp, tampilTanggal, tampilWaktu, instagramlu, whatsapplu, kapanbotaktif, grupch1, grupch2) ,MessageType.text);
 conn.sendMessage(id, 'Jangan Lupa ketik *#donasi* Untuk Berdonasi Gan😁', MessageType.text);
 }
 else if (text == '!foto'){
