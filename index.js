@@ -556,10 +556,6 @@ conn.sendMessage(id, '❗Perintah Salah❗\n\nYg Bener !foto cewek', MessageType
 else if (text == '!foto cowo'){
 conn.sendMessage(id, '❗Perintah Salah❗\n\nYg Bener !foto cowok', MessageType.text);
 }
-if (messageType == 'imageMessage'){
-if (caption == '!stiker'){
-conn.sendMessage(id, '❗Perintah Salah❗\n\n Yg Bener kirim foto dengan Capt *!sticker*', MessageType.text);
-}}
    if (messageType == 'imageMessage')
    {
       let caption = imageMessage.caption.toLocaleLowerCase()
