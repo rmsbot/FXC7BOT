@@ -880,7 +880,7 @@ if (text.includes("!fotoanime"))
     }
  
 if (text.includes("!lirik")){
-	const teks = text.split("!lirik =")[1]
+	const teks = text.split("!lirik ")[1]
 	axios.get(`http://scrap.terhambar.com/lirik?word=${teks}`).then ((res) => {
 	    let pesan = `[ WAIT ] Sedang mencari lirik lagu *${teks}*`;
 	    conn.sendMessage(id, pesan, MessageType.text);
