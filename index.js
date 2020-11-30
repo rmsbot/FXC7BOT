@@ -644,7 +644,7 @@ const get = require('got')
    
    if (text.includes("!hentai"))
    {
-    var url = "https://myanimelist.net/forum/?board=2";
+    var url = "https://alfians-api.herokuapp.com/api/waifu";
     
     axios.get(url)
       .then((result) => {
