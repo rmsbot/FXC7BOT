@@ -756,9 +756,7 @@ if (text.includes("!pokemon"))
           var h  = x.replace(/<[^>]*>?/gm, '');
       console.log(""+ h);
       conn.sendMessage(id,
-            `
-      Arti dari nama *${teks}* adalah
-
+` Arti Dari Nama *${teks}* Adalah:
 ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
 
           ${h}
