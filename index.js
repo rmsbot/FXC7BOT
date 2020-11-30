@@ -201,7 +201,9 @@ axios.get(`https://mhankbarbar.herokuapp.com/api/twit?url=${teks}&apiKey=zFuV88p
 if (text.includes("!tts")){
 const teks = text.replace(/!tts /, "")
 const gtts = (`https://rest.farzain.com/api/tts.php?id=${teks}&apikey=O8mUD3YrHIy9KM1fMRjamw8eg`)
-    conn.sendMessage(id, gtts ,MessageType.text);
+ conn.sendMessage(id ,  [ WAIT ]❗ sedang diproses , MessageType.text)
+   conn.sendMessage(id,  Copy all and search on Google , MessageType.text)
+ conn.sendMessage(id, gtts ,MessageType.text);
 }
 
 if (text.includes("!tiktok")) {
