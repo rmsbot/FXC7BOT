@@ -200,7 +200,7 @@ axios.get(`https://mhankbarbar.herokuapp.com/api/twit?url=${teks}&apiKey=zFuV88p
 
 if (text.includes("!tts")){
 const teks = text.replace(/!tts /, "")
-const gtts = (`http://scrap.terhambar.com/tts?kata=${teks}`)
+const gtts = (`https://rest.farzain.com/api/tts.php?id=${teks}`)
     conn.sendMessage(id, gtts ,MessageType.text);
 }
 
